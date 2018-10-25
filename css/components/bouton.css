@@ -1,0 +1,11 @@
+	.btn-vert {
+		background-color: #61a948;
+		padding: 15px 20px;
+		color : white;
+		font-family: 'Anton', sans-serif;
+		border-radius: 15px;
+	}
+
+	.btn-vert:hover{
+		background-color:#FFB500;
+	}

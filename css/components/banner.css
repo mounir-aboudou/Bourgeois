@@ -1,0 +1,22 @@
+	.banner {
+
+		background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../images/bannerun.jpg);
+		background-size: cover;
+		background-position: center;
+		color: white;
+		padding-top:100px;
+		padding-bottom:175px;
+
+	}
+
+	.banner h1 {
+		font-size: 100px;
+		margin:0;
+	}
+
+	.banner h3 {
+		font-size: 65px;
+		font-weight: lighter;
+		margin-bottom: 40px;
+		margin-top: 0;
+	}

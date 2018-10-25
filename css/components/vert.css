@@ -1,19 +1,19 @@
-.vert {
+	.vert {
 
-	width: 200px;
-	margin-top: -120px;
-	text-align: center;
-	border-radius: 15px;
-	z-index: 4;
-	position: relative;
-}
+		width: 200px;
+		margin-top: -120px;
+		text-align: center;
+		border-radius: 15px;
+		z-index: 4;
+		position: relative;
+	}
 
-#image-center-2 .vert {
+	#image-center-2 .vert {
 
-	width: 200px;
-	margin-top: 0;
-	text-align: center;
-	border-radius: 15px;
-	z-index: 4;
-	position: relative;
-}
+		width: 200px;
+		margin-top: 0;
+		text-align: center;
+		border-radius: 15px;
+		z-index: 4;
+		position: relative;
+	}

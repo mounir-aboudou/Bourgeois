@@ -1,227 +1,290 @@
-	@import url("https://fonts.googleapis.com/css?family=Anton|Damion|Julius+Sans+One|Montserrat");
+		@import url("https://fonts.googleapis.com/css?family=Anton|Damion|Julius+Sans+One|Montserrat");
 
-	@import url("components/container.css");
-	@import url("components/vert.css");
-	@import url("components/gris.css");
-	@import url("components/saumon.css");
-	@import url("components/poulet.css");
-	@import url("components/nature.css");
-	@import url("components/bouton.css");
-	@import url("components/banner.css");
-	@import url("components/menus.css");
+		@import url("components/container.css");
+		@import url("components/vert.css");
+		@import url("components/gris.css");
+		@import url("components/saumon.css");
+		@import url("components/poulet.css");
+		@import url("components/nature.css");
+		@import url("components/bouton.css");
+		@import url("components/banner.css");
+		@import url("components/menus.css");
 
-	body {
-		font-family: 'Montserrat', sans-serif;
-		font-size: 18px;
-		margin: 0;
-		text-align: justify-all;
+		body {
+			font-family: 'Montserrat', sans-serif;
+			font-size: 18px;
+			margin: 0;
+			text-align: justify-all;
+		}
+
+		h1 {
+			font-family: 'Anton', sans-serif;
+			font-size: 30px;
+		}
+
+		h2 {
+
+			font-family: 'Julius Sans One', sans-serif;
+			font-size: 25px;
+			text-align: center;
+			font-weight: bold;
+			margin-top:60px;
+		}
+
+		h3 {
+
+			font-family: 'Damion', cursive;
+			font-size: 25px;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+
+		a, li {
+			text-decoration: none;
+			color : #61a948;
+		}
+
+		ul{
+			padding:0px;
+		}
+
+		.list-without-bullet-point {
+			font-family: 'Julius Sans One', sans-serif;
+			list-style-type: none;
+			text-align: center;
+
+		}
+
+		.list-without-bullet-point li {
+
+			display: inline;
+			margin: 35px;
+		}
+
+		.halal {
+			text-align: center;
+			font-weight: bold;
+			color: #61a948;
+		}
+
+		.list-without-bullet-point-2 {
+			font-family: 'Julius Sans One', sans-serif;
+			list-style-type: none;
+			text-align: center;
+			font-size: 60px;
+
+		}
+
+		.list-without-bullet-point-2 li {
+
+			display: inline;
+			margin: 15px;
+		}
+
+		.top {
+
+			font-size: 40px;
+		}
+
+		#image-center{
+			margin:0 auto;
+			text-align:center;
+		}
+
+		#image-center-2 {
+			margin:0 auto;
+			text-align:center;
+			z-index: 4
+		}
+
+		#onglet a:hover {
+			color: #FFB500;
+		}
+
+		#suivez a:hover{
+			color: #FFB500;
+		}
+
+		#commande {
+			margin-top: -65px;
+			z-index: 1
+		}
+
+	@media (max-width: 960px) {
+	  /* For a screen < 960px, this CSS will be read */
+	  	.container {
+	  		text-align:center;
+	    	width: 700px;
+	    	margin: 0 auto;
+	  	}
+
+	  	.menus {
+	    	width: 700px;
+	    	justify-content: space-around;
+	    	flex-direction: column;
+	    	align-items: center;
+	  	}
+
+	  	.gris {
+			width: 144px;
+			margin: 200;
+	    }
+
+	  	.vert {
+			width: 192px;
+			margin: 200;
+	    }
+
+	    .banner {
+	    	padding-top: 96px;
+	    	padding-bottom: 168px;
+	    }
+
+	    .banner h1 {
+	    	font-size: 96px;
+	    	margin: 0;
+	    }
+
+	    .banner h3 {
+	    	font-size: 62px;
+	    	margin-bottom: 38px;
+	    	margin-top: 0;
+	    }
+
+	    .btn-vert {
+	    	padding : 14px 19px 9px;
+	    }
+
+	    #image-center-2 .vert {
+	    	width: 192px;
+			margin: 200;
+	    }
+
+	    #image-center-2 .gris {
+			width: 144px;
+			margin: 200;
+	    }
 	}
 
-	h1 {
-		font-family: 'Anton', sans-serif;
-		font-size: 30px;
+	@media (max-width: 720px) {
+	  /* For a screen < 720px, this CSS will be read */
+	  	.container {
+	  		text-align:center;
+	  		width:500px;
+	  		margin: 0 auto;
+	  	}
+
+	  	.menus {
+	    	width: 500px;
+	    	justify-content: space-around; 
+	    	flex-direction: column;
+	    	align-items: center;
+		}
+
+		.gris {
+	  		text-align:center;
+			width: 108px;
+	    	margin: 200;
+	    }
+
+	    .vert {
+	  		text-align:center;
+			width: 144px;
+	    	margin: 200;
+	    }
+
+	    .banner {
+	    	padding-top: 72px;
+	    	padding-bottom: 126px;
+	    }
+
+	    .banner h1 {
+
+	    	font-size: 72px;
+	    	margin: 0;
+	    }
+
+	    .banner h3 {
+
+	    	font-size: 47px;
+	    	margin-bottom: 29px;
+	    	margin-top: 0;
+	    }
+
+	    .btn-vert {
+	    	padding : 11px 14px 7px;
+	    }
+
+	    #image-center-2 .vert {
+			text-align:center;
+			width: 144px;
+	    	margin: 200;
+	    }
+
+	    #image-center-2 .gris {
+			text-align:center;
+			width: 108px;
+	    	margin: 200;
+	    }
 	}
 
-	h2 {
+	@media (max-width: 540px) {
+	  /* For a screen < 540px, this CSS will be read */
+	  	.container {
+	  		text-align:center;
+	    	width: 300px;
+		}
+	  	.menus {
+	    	width: 300px;
+	    	justify-content: space-around;
+	    	flex-direction: column;
+	    	align-items: center;
+		}
 
-		font-family: 'Julius Sans One', sans-serif;
-		font-size: 25px;
-		text-align: center;
-		font-weight: bold;
-		margin-top:60px;
+		.gris {
+			width: 81px;
+			margin: 100;
+	    }
+
+	    .vert {
+			width: 108px;
+			margin: 100;
+	    }
+
+	    .banner {
+	    	padding-top: 54px;
+	    	padding-bottom: 95px;
+	    }
+
+	    .banner h1 {
+
+	    	font-size: 54px;
+	    	margin: 0;
+	    }
+
+	    .banner h3 {
+
+	    	font-size: 35px;
+	    	margin-bottom: 22px;
+	    	margin-top: 0;
+	    }
+
+	    .btn-vert {
+	    	padding : 8px 11px 5px;
+	    }
+
+	    #image-center-2 .vert {
+			width: 108px;
+			margin: 100;
+	    }
+
+	    #image-center-2 .gris {
+	    	width: 81px;
+			margin: 100;
+	    }
 	}
-
-	h3 {
-
-		font-family: 'Damion', cursive;
-		font-size: 25px;
-	}
-
-	a {
-		text-decoration: none;
-	}
-
-
-	a, li {
-		text-decoration: none;
-		color : #61a948;
-	}
-
-	ul{
-		padding:0px;
-	}
-
-	.list-without-bullet-point {
-		font-family: 'Julius Sans One', sans-serif;
-		list-style-type: none;
-		text-align: center;
-
-	}
-
-	.list-without-bullet-point li {
-
-		display: inline;
-		margin: 35px;
-	}
-
-	.halal {
-
-		text-align: center;
-		font-weight: bold;
-
-	}
-
-	.list-without-bullet-point-2 {
-		font-family: 'Julius Sans One', sans-serif;
-		list-style-type: none;
-		text-align: center;
-		font-size: 60px;
-
-	}
-
-	.list-without-bullet-point-2 li {
-
-		display: inline;
-		margin: 15px;
-	}
-
-	.menus {
-		padding: 20px;
-		display: flex;
-		align-items: center;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
-		border-radius: 15px;
-		margin-bottom: 40px;
-		margin-right: -110px;
-		margin-left: -110px;
-		text-align: center;
-	}
-
-
-	#image-center{
-		margin:0 auto;
-		text-align:center;
-	}
-
-	#image-center-2 {
-		margin:0 auto;
-		text-align:center;
-		z-index: 4
-	}
-
-	#onglet a:hover {
-		color: #FFB500;
-	}
-
-	#suivez a:hover{
-		color: #FFB500;
-	}
-
-	#commande {
-		margin-top: -65px;
-		z-index: 1
-	}
-
-
-.menus {
-		padding: 20px;
-		display: flex;
-		align-items: center;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
-		border-radius: 15px;
-		margin-bottom: 40px;
-		margin-right: -110px;
-		margin-left: -110px;
-		text-align: center;
-	}
-
-@media (max-width: 960px) {
-   /*For a screen < 960px, this CSS will be read */
-  .menus {
-    width: 700px;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .banner {
-    width: 700px;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #image-center {
-
-	width: 700px;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-
-  }
-}
-@media (max-width: 720px) {
-   /*For a screen < 720px, this CSS will be read */
-  .menus {
-    width: 500px;
-    justify-content: space-around; 
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .banner {
-	width: 500px;
-    justify-content: space-around; 
-    flex-direction: column;
-    align-items: center;
-  }
-
-    #image-center {
-
-	width: 500px;
-    justify-content: space-around; 
-    flex-direction: column;
-    align-items: center;
-
-    }
-
-  }
-}
-@media (max-width: 540px) {
-   /*For a screen < 540px, this CSS will be read */
-  .menus {
-    width: 300px;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-}
-    .banner {
-    width: 300px;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-  }
-
-	#image-center {
-
-	width: 300px;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-	}
-
-	#onglet {
-	width: 300px;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-	}
-
-}
-
 
 
